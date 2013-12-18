@@ -9,7 +9,7 @@ TARGET_SCREEN_WIDTH := 720
 $(call inherit-product, vendor/thinkingbridge/config/common.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
+$(call inherit-product, device/samsung/maguro/aosp_maguro.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := maguro
