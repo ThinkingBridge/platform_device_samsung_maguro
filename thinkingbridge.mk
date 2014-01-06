@@ -8,6 +8,9 @@ TARGET_SCREEN_WIDTH := 720
 # Inherit some common ThinkingBridge stuff.
 $(call inherit-product, vendor/thinkingbridge/config/common.mk)
 
+# Inherit gsm packages
+$(call inherit-product, vendor/thinkingbridge/config/gsm.mk)
+
 # Inherit device configuration
 $(call inherit-product, device/samsung/maguro/aosp_maguro.mk)
 
